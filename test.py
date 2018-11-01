@@ -1,3 +1,4 @@
+#Yes, for anyone who's stumbled across this by accident, I'm aware that this code doesn't work.  I'm trying to fix that, thanks. ;)
 X = "X"
 EMPTY = " "
 NUM_SQUARES = 13
