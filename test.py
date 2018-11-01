@@ -80,9 +80,8 @@ def player_move(myAction):
         movement_handler(destination)
         print_location()
 
-def move_direction(spot):
-    """Get human move."""  
-    legal = legal_moves(board)
+def move_direction(spot):  
+    legal = legal_moves(spot)
     move = None
     while move not in legal:
         move = ask_move("Where will you move?", 0, NUM_SQUARES)
